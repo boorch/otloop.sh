@@ -17,11 +17,8 @@ usage() {
     exit 1
 }
 
-# Check for no arguments, or wrong order or type of arguments.
-if [[ $# -eq 0 ]] || [[ $# -gt 3 ]] || \
-   { [[ "$1" != "-r" ]] && [[ "$1" != "-a" ]] && [[ ! -d "$1" ]] && [[ ! -f "$1" ]]; } || \
-   { [[ $# -ge 2 ]] && [[ "$2" != "-a" ]] && [[ "$2" != "-r" ]] && [[ ! -d "$2" ]] && [[ ! -f "$2" ]] && ! [[ "$2" =~ ^[0-9]+$ ]]; } || \
-   { [[ $# -eq 3 ]] && ! [[ "$3" =~ ^[0-9]+$ ]]; }; then
+# If no arguments given, print usage
+if [[ $# -eq 0 ]]; then
     usage
 fi
 
