@@ -15,12 +15,12 @@ You can also consider placing it in [PATH](https://en.wikipedia.org/wiki/PATH_(v
        filename: the filename of the .ot file to modify
        slice_number: the slice number to use for the loop start and loop length
        
-       Example usage for single file:  /usr/local/bin/otloop.sh -r my_file.ot 2
-       Example usage for all files in a folder and subfolders, starting from current folder:  /usr/local/bin/otloop.sh -a . 2
-       Example usage for all files in a folder and subfolders, starting from a specific folder:  /usr/local/bin/otloop.sh -a my_folder 2
+       Example usage for single file:  otloop.sh -r my_file.ot 2
+       Example usage for all files in a folder and subfolders, starting from current folder:  otloop.sh -a . 2
+       Example usage for all files in a folder and subfolders, starting from a specific folder:  otloop.sh -a my_folder 2
        
-       Example usage for restoring a single file:  $0 -r my_file.ot
-       Example usage for restoring all files in a folder and subfolders, starting from current folder:  /usr/local/bin/otloop.sh -r -a .
-       Example usage for restoring all files in a folder and subfolders, starting from a specific folder:  /usr/local/bin/otloop.sh -r -a my_folder
+       Example usage for restoring a single file:  otloop.sh -r my_file.ot
+       Example usage for restoring all files in a folder and subfolders, starting from current folder:  otloop.sh -r -a .
+       Example usage for restoring all files in a folder and subfolders, starting from a specific folder:  otloop.sh -r -a my_folder
 
 
