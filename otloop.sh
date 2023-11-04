@@ -4,7 +4,7 @@
 usage() {
     echo "Usage: $0 [-r] [-a] [filename or folder path] [slice_number]"
     echo "       -r: restore from backup if a backup file exists"
-    echo "       -a: apply to all .ot files in the specified folder recursively. Requires a folder path instead of a filename."
+    echo "       -a: operate on all .ot or .bak files in the specified folder recursively. Requires a folder path instead of a filename."
     echo "       filename: the filename of the .ot file to modify"
     echo "       slice_number: the slice number to use for the loop start and loop length"
     echo "       Example usage for single file:  $0 -r my_file.ot 2"
