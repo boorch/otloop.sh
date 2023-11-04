@@ -10,6 +10,7 @@ usage() {
     echo "       Example usage for single file:  $0 -r my_file.ot 2"
     echo "       Example usage for all files in a folder and subfolders, starting from current folder:  $0 -a . 2"
     echo "       Example usage for all files in a folder and subfolders, starting from a specific folder:  $0 -a my_folder 2"
+    echo "       Example usage for restoring a single file:  $0 -r my_file.ot"
     echo "       Example usage for restoring all files in a folder and subfolders, starting from current folder:  $0 -r -a ."
     echo "       Example usage for restoring all files in a folder and subfolders, starting from a specific folder:  $0 -r -a my_folder"
 
