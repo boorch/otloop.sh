@@ -11,7 +11,7 @@ You can also consider placing it in [PATH](https://en.wikipedia.org/wiki/PATH_(v
        otloop.sh [-r] [-a] [filename or folder path] [slice_number]
        
        -r: restore from backup if a backup file exists
-       -a: apply to all .ot files in the specified folder recursively. Requires a folder path instead of a filename       
+       -a: operate on all .ot or .bak files in the specified folder recursively. Requires a folder path instead of a filename       
        filename: the filename of the .ot file to modify
        slice_number: the slice number to use for the loop start and loop length
        
