@@ -3,6 +3,10 @@ A macOS bash script that can set the loop start of an "ot" file based on a speci
 
 ## Please make your own backups before using the script. I can't be held responsible for any data loss you may experience.
 
+Remember to make otloop.sh exetucable: chmod +x otloop.sh
+You can also consider placing it in [PATH](https://en.wikipedia.org/wiki/PATH_(variable)) so it's always reachable.
+
+
 ### Usage
        /usr/local/bin/otloop.sh [-r] [-a] [filename or folder path] [slice_number]
        -r: restore from backup if a backup file exists
