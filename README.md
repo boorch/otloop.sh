@@ -3,7 +3,7 @@ A macOS bash script that can set the loop start of an "ot" file based on a speci
 
 ## Please make your own backups before using the script. I can't be held responsible for any data loss you may experience.
 
-## Usage
+### Usage
        /usr/local/bin/otloop.sh [-r] [-a] [filename or folder path] [slice_number]
        -r: restore from backup if a backup file exists
        -a: apply to all .ot files in the specified folder recursively. Requires a folder path instead of a filename.
