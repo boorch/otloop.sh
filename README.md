@@ -1,5 +1,5 @@
 # otloop.sh
-A macOS bash script that can set the loop start of an "ot" file based on a specific slice's startpoint and length. When modifying an ot file, a backup of the original file is created with the extension of "bak". There's also "restore" functionality that can revert your changes. The script can perform operations in all subfolders recursively by finding all ot/bak files and operating on them if required.
+A macOS bash script that can set the loop start of an "ot" file (used by [Elektron Octatrack](https://en.wikipedia.org/wiki/Elektron_Octatrack)) based on a specific slice's startpoint and length. When modifying an ot file, a backup of the original file is created with the extension of "bak". There's also "restore" functionality that can revert your changes. The script can perform operations in all subfolders recursively by finding all ot/bak files and operating on them if required.
 
 ## Please make sure to create your own backups before using the script. I can't be held responsible for any data loss you may experience.
 
